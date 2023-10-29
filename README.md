@@ -51,6 +51,7 @@ On devices that don't have TrollStore (1.3+) installed, this will just open the 
 The binaries inside an IPA can have arbitrary entitlements, fakesign them with ldid and the entitlements you want (`ldid -S<path/to/entitlements.plist> <path/to/binary>`) and TrollStore will preserve the entitlements when resigning them with the fake root certificate on installation. This gives you a lot of possibilities, some of which are explained below.
 
 ### Banned entitlements
+CVE-2023-41981 is a Kernel PPL Bypass so when its PoC releases it can be used to allow these entitlements to be used;
 
 iOS 15 on A12+ has banned the following three entitlements related to running unsigned code, these are impossible to get without a PPL bypass, apps signed with them will crash on launch.
 
