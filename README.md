@@ -16,7 +16,7 @@ It works because of an AMFI/CoreTrust bug where iOS does not verify whether or n
 | 15.5 beta 1 - 4 | [TrollHelperOTA (iOS 15+)](./install_trollhelperota_ios15.md) | [TrollHelperOTA (iOS 15+)](./install_trollhelperota_ios15.md) |
 | 15.5 (RC) | Not Supported (CT Bug fixed) | Not Supported (CT Bug fixed) |
 | 15.6 beta 1 - 5 | [SSH Ramdisk](./install_sshrd.md) | [TrollHelperOTA (arm64e)](./install_trollhelperota_arm64e.md) |
-| 15.6 (RC 1/2)-17.0 (Excluding 16.7) | Will be supported soon (New CT Bug found) | Will Supported soon (New CT Bug found) |
+| 15.6 (RC 1/2) - 17.0 (Excluding 16.7) | Will be supported soon (New CT Bug found) | Will Supported soon (New CT Bug found) |
 
 Due to the discovery of a new CoreTrust vulnerability, support for 15.5 - 16.6.1 and 17.0 might be added in the future. Stay on these versions if you want TrollStore. 16.7 and 17.0.1+ will NEVER be supported (unless Apple fucks CoreTrust up a third time...).
 
